@@ -3,7 +3,7 @@ let products = [];
 function addProduct() {
     let form = document.getElementById('addProductForm');
     let name = form.name.value;
-    let price = form.price.valu;
+    let price = form.price.value;
     let type = form.type.value;
     let image = form.file.value;
 
